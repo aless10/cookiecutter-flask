@@ -1,0 +1,8 @@
+{
+    "project_directory_name": "flask_project",
+    "server_container_name": "server",
+    "docker_user": "docker_user_dev",
+    "project_description": "Description of the Flask Project",
+    "project_title": "My Flask Project",
+    "project_email": "my.email@example.com"
+}

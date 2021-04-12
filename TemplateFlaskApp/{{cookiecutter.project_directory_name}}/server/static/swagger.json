@@ -1,0 +1,24 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "{{cookiecutter.project_description}}",
+    "version": "1.0.0",
+    "title": "{{cookiecutter.project_title}}",
+    "contact": {
+      "email": "{{cookiecutter.project_email}}"
+    }
+  },
+  "paths": {
+    "/api/status": {
+      "get": {
+        "summary": "Status of the server",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
+
